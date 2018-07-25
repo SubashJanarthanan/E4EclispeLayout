@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application" bindingContexts="_c3AF2cjYEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="SubEclipse" iconURI="platform:/plugin/E4EclispeLayout/icons/if_18_939741.png" width="1400" height="700">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_zge7sI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_zxB5II_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.perspective.defaultperspective" label="Default perspective">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_-PvTsI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_H8dQoI_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_I7GDII_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.part.projectexplorer" label="Project Explorer" iconURI="platform:/plugin/E4EclispeLayout/icons/projectexplorer.png" closeable="true"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_IhURMI_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partsashcontainer.1">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_lm4SII_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partsashcontainer.2" horizontal="true">
+              <children xsi:type="basic:PartStack" xmi:id="_rj_JwI_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partstack.1">
+                <children xsi:type="basic:Part" xmi:id="_t2jCQI_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.part.editorone" label="EditorOne"/>
+                <children xsi:type="basic:Part" xmi:id="_uhRaQI_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.part.editortwo" label="EditorTwo"/>
+              </children>
+              <children xsi:type="basic:PartStack" xmi:id="_r2qOII_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partstack.2">
+                <children xsi:type="basic:Part" xmi:id="_skgyoI_HEeiQ_etDXm2GqQ" elementId="e4eclispelayout.part.outline" label="Outline" iconURI="platform:/plugin/E4EclispeLayout/icons/outline.png" closeable="true"/>
+              </children>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_DRx0wI_IEeiQ_etDXm2GqQ" elementId="e4eclispelayout.partstack.3">
+              <children xsi:type="basic:Part" xmi:id="_Ds2nMI_IEeiQ_etDXm2GqQ" elementId="e4eclispelayout.part.console" label="Console" iconURI="platform:/plugin/E4EclispeLayout/icons/console3.png" closeable="true"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_64DboI_FEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_LmegwI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kOreMI_JEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.new" label="New" iconURI="platform:/plugin/E4EclispeLayout/icons/new.png" tooltip="New"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_RzHpMI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.open" label="Open" iconURI="platform:/plugin/E4EclispeLayout/icons/open.png" tooltip="Open"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_lDHTMI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.exit" label="Exit" iconURI="platform:/plugin/E4EclispeLayout/icons/exit.png" tooltip="Exit"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_PGnmsI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.edit" label="Edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aoOosI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.undo" label="Undo" iconURI="platform:/plugin/E4EclispeLayout/icons/undo.png" tooltip="Undo"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_a2REsI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.redo" label="Redo" iconURI="platform:/plugin/E4EclispeLayout/icons/redo.png" tooltip="Redo"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_hs9PsI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_bGrfQI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.cut" label="Cut" iconURI="platform:/plugin/E4EclispeLayout/icons/erase.png" tooltip="Cut"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_bVUYMI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.copy" label="Copy" iconURI="platform:/plugin/E4EclispeLayout/icons/copy.png" tooltip="Copy"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_wB47oI_LEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.paste" label="Paste" iconURI="platform:/plugin/E4EclispeLayout/icons/paste.png" tooltip="Paste"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_n4m5oI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.search" label="Search">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_o8mGMI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.quicksearch" label="Quick Search" iconURI="platform:/plugin/E4EclispeLayout/icons/search.png" tooltip="Quick Search"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_uNGPII_JEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.window" label="Window">
+        <children xsi:type="menu:Menu" xmi:id="_2Yj0sI_JEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.showview" label="Show View" iconURI="platform:/plugin/E4EclispeLayout/icons/showview.png">
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_vWRdsI_JEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.showview" label="Project Explorer View" iconURI="platform:/plugin/E4EclispeLayout/icons/projectexplorer.png" tooltip="Project Explorer View"/>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_8HGE0I_JEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.oulineview" label="Ouline View" iconURI="platform:/plugin/E4EclispeLayout/icons/outline.png" tooltip="Ouline View"/>
+          <children xsi:type="menu:HandledMenuItem" xmi:id="_8d6CUI_JEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.consoleview" label="Console View" iconURI="platform:/plugin/E4EclispeLayout/icons/console3.png" tooltip="Console View"/>
+        </children>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_N3lAsI_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.menu.help" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_T0C_II_GEeiQ_etDXm2GqQ" elementId="e4eclispelayout.handledmenuitem.about" label="About" iconURI="platform:/plugin/E4EclispeLayout/icons/about.png" tooltip="About"/>
+      </children>
+    </mainMenu>
+  </children>
+  <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_c3AF2sjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_c3AF28jYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_c3AF0sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_c3AF08jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_c3AF1MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_c3AF1cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_c3AF1sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_c3AF18jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_c3AF2MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
